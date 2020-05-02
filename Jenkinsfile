@@ -6,10 +6,10 @@ pipeline {
         stage("build") {
             echo 'building the app'
         }
-        stage("build") {
+        stage("test") {
             echo 'testing the app'
         }
-        stage("build") {
+        stage("deploy") {
             echo 'deploying this sob'
         }
     }
